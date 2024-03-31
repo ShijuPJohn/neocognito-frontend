@@ -1,8 +1,26 @@
 :root {
+    --col-border-grey1: #545454;
+    --col-border-grey2: #706f6f;
+    --col-border-grey3: #9d9d9d;
+    --col-border-grey4: #b7b7b7;
+    --col-border-grey5: #e5e5e5;
+    --col-text-grey1: #4d4d4d;
+    --col-text-grey2: #707070;
+    --col-text-grey3: #a4a4a4;
 }
 
 *, *::after, *::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-weight: 300;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
